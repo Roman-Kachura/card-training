@@ -1,0 +1,13 @@
+.packs{
+    width: 100%;
+    border:1px solid #000;
+}
+.packs tbody tr:nth-child(2n){
+    background: #78c3f8;
+}
+
+
+.thead{
+    background: red;
+    border-bottom: 1px solid #000;
+}

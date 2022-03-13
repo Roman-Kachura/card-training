@@ -1,0 +1,1 @@
+export const validationValue = (value: string) => value.length <= 25 ? value : value.substring(0,20) + '...';

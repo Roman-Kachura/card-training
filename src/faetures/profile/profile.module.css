@@ -1,0 +1,146 @@
+.profileContainer{
+    position: relative;
+}
+
+.profile{
+    height: auto;
+    max-height: 540px;
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 33px;
+    margin: auto;
+    background: #F9F9FE;
+    border-radius: 8px;
+}
+
+.profileTitle{
+    margin: 10px 0 20px;
+}
+
+.profileInfo{
+    margin-bottom: 20px;
+}
+
+.profilePhotoBlock{
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.profilePhoto{
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.photoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: 5px;
+    right: -10px;
+    z-index: 100;
+    border-radius: 50%;
+    border:none;
+    background: rgba(45,46,70,.5);
+    color:#f3f3f3;
+    transition: .3s;
+}
+
+.photoDiv:hover{
+    background: rgba(45,46,70,.8);
+    color:#fff;
+}
+
+.photoInput{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border:none;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profileName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    position: relative;
+}
+
+
+.profileItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.profileFields{
+    margin:0;
+    padding: 5px 0;
+    width: auto;
+    background: rgba(0,0,0,0);
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #2D2E46;
+    color:#000;
+    transition: .3s;
+}
+
+.profileFields:focus{
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #21268F;
+}
+
+.profileFieldsError{
+    border-bottom: 2px solid red;
+}
+
+.profileButton{
+    display: block;
+    font-size: 20px;
+
+    background: rgba(0,0,0,0);
+    border:none;
+    color:#2D2E46;
+    transition: .3s;
+    cursor: pointer;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.editButton{
+    color: #9A91C8;
+}
+
+.saveButton{
+    color: #069f06;
+}
+
+.profileButton.editButton:hover{
+    color: #21268F;
+}
+

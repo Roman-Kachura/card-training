@@ -1,0 +1,139 @@
+.auth{
+    height: auto;
+    max-height: 600px;
+    max-width: 413px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 33px;
+    margin: auto;
+    background: #F9F9FE;
+    border-radius: 8px;
+}
+.newPassword{
+    max-height: 480px;
+}
+
+.newPassword .authLink{
+    text-align: center;
+}
+
+.forgotPassword{
+    max-height: 480px;
+}
+
+.error{
+    text-align: center;
+    color:red;
+}
+
+.authTitle{
+    margin: 10px 0;
+}
+
+.authSubtitle{
+    margin: 15px 0;
+}
+
+.authItem{
+    width: 300px;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.authLabel{
+    font-size: 13px;
+    color:#2D2E46;
+}
+
+.authFields{
+    margin:0;
+    padding: 5px 0;
+    width: 300px;
+    background: rgba(0,0,0,0);
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #2D2E46;
+    color:#000;
+    transition: .3s;
+}
+
+.authFields:focus{
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #21268F;
+}
+
+.authFieldsError{
+    border-bottom: 2px solid red;
+}
+
+.authCheckBox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border:1px solid #2D2E46;
+    background:rgba(0,0,0,0);
+}
+
+.authCheckBox:checked{
+    /*appearance: inherit;*/
+    background-clip: border-box;
+    background: #2D2E46;
+}
+
+.authCheckBox:focus{
+    outline: none;
+    border:1px solid #21268F;
+}
+
+.forgotLink{
+    margin: 20px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.forgotLink a{
+    font-size: 14px;
+    color:#2D2E46;
+    transition: .3s;
+}
+
+.forgotLink a:hover,
+.forgotLink a:focus{
+    color:#21268F;
+}
+
+.authButton{
+    display: block;
+    margin: 50px auto;
+    width: 266px;
+    height: 36px;
+
+    background: #21268F;
+    box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border:none;
+    border-radius: 30px;
+    color:#fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.authButton:hover,.authButton:focus{
+    background: #2D2E46;
+}
+
+.linkBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#2D2E46;
+    margin-top: 20px;
+}
+
+.authLink{
+    font-size: 16px;
+    color:#21268F;
+    margin: 15px 0;
+}

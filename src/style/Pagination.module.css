@@ -1,0 +1,31 @@
+.paginationBlock{
+    margin-right: 40px;
+}
+
+.paginationButton {
+    box-sizing: border-box;
+    min-width: 24px;
+    color: #2D2E46;
+    font-size: 14px;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 2px;
+}
+
+.paginationButton:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: #F2F5F7;
+    background: #21268F;
+}
+
+.active:hover,
+.active:focus{
+    text-decoration: none;
+}

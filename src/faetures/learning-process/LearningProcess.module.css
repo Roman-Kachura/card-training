@@ -1,0 +1,26 @@
+.formLearningProcess {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+}
+
+.title {
+    font-size: 26px;
+    line-height: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.subtitle {
+    margin-bottom: 1em;
+}
+
+.gradeList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

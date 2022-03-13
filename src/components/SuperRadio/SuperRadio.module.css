@@ -1,0 +1,52 @@
+.radioContainer {
+    margin-left: 10px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.label:not(:last-child) {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.radiobox {
+    display: none;
+}
+
+.fakeRadiobox {
+    display: inline-block;
+    vertical-align: middle;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #2d2e46;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.label:hover .fakeRadiobox {
+    border-color: #9890c7;
+}
+
+.radiobox:checked + .fakeRadiobox {
+    border-color: #21268f;
+    position: relative;
+    background-color: #21268F;
+}
+
+.radiobox:checked + .fakeRadiobox:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}

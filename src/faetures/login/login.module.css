@@ -1,0 +1,44 @@
+.loginForm{
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.head{
+
+}
+
+.emailBlock{
+
+}
+
+.emailLabel{
+    display: block;
+    margin-left: 10px;
+}
+
+.passBlock{
+
+}
+
+.passLabel{
+    display: block;
+    margin-left: 10px;
+}
+
+.checkBox{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,224 @@
+.packs {
+    display: flex;
+    min-width: 1200px;
+    margin: 100px auto 0;
+    background: #F9F9FE;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.packsAside {
+    width: 25%;
+    padding: 33px 24px;
+    background: #ECECF9;
+}
+
+.packsAsideTitle {
+    font-size: 19px;
+    font-weight: 600;
+    color: #2D2E46;
+    margin-bottom: 20px;
+}
+
+.packsAsideButtonBlock {
+    height: 46px;
+    width: 196px;
+    margin-bottom: 20px;
+}
+
+.packsAsideButton {
+    width: 50%;
+    height: 100%;
+    border: none;
+    background: #f3f3f3;
+    color: #2D2E46;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.active {
+    color: #f3f3f3;
+    background: #9A91C8;
+}
+
+.searchBlock{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.searchButton{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: .3s;
+    border:2px solid #9A91C8;
+    background: #f3f3f3;
+    color: #2D2E46;
+}
+
+.searchButton:focus,
+.searchButton:hover{
+    color: #f3f3f3;
+    background: #9A91C8;
+}
+
+.searchInput{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color:#2D2E46;
+    background: #ECECF9;
+    border: 1px solid #635D80;
+    padding: 0 5px;
+    transition: .3s;
+}
+
+.searchInput:focus{
+    border: 1px solid #9A91C8;
+    color:#2D2E46;
+}
+
+.wrapSlider{
+
+    width: 100%;
+}
+
+.minAndMaxValue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.range{
+    width: 95%;
+    margin: 0;
+}
+
+.packsMain{
+    width: 75%;
+    padding: 33px 24px;
+}
+
+.packsMainTitle {
+    font-size: 19px;
+    color: #2D2E46;
+    margin-bottom: 20px;
+}
+
+.table{
+    width: 100%;
+    box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.thead{
+    color:#2D2E46;
+    font-weight: 600;
+    height: 48px;
+    background: #ECECF9;
+}
+
+.thead tr{
+    height: 100%;
+}
+
+.thead tr td{
+    height: 100%;
+    padding: 0 10px;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.thead tr td:last-child{
+    text-align: center;
+}
+
+.tbody{
+    background: #F8F7FD;
+}
+
+.tbody tr{
+    height: 50px;
+}
+
+.tbody tr td{
+    height: 100%;
+    padding: 20px 10px;
+    text-align: left;
+    overflow: hidden;
+    white-space: break-spaces;
+}
+
+.tbody tr td:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbody tr:nth-child(2n){
+    background: #f3f3f3;
+}
+
+.packsButton{
+    color:#21268F;
+    background: #D7D8EF;
+    border:none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.packsButton:focus,
+.packsButton:hover{
+    color:#f3f3f3;
+    background: #21268F;
+}
+
+.packsButtonDelete{
+    color:#fff;
+    background: #ff0000;
+    border:none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.packsButtonDelete:focus,
+.packsButtonDelete:hover{
+    background: #e30808;
+}
+
+.navigationBlock{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.addPackButton{
+    display: block;
+    margin: 0 0 30px;
+    height: 36px;
+    padding: 5px 15px;
+
+    background: #21268F;
+    box-shadow: 0 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border:none;
+    border-radius: 2px;
+    color:#fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.addPackButton:hover,.addPackButton:focus{
+    background: #2D2E46;
+}
+
