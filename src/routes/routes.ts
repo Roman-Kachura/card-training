@@ -14,6 +14,7 @@ import { CardsContainer } from "../faetures/cards/CardsContainer";
 import {LearningProcess} from "../faetures/learning-process/LearningProcess";
 
 export const PATH = {
+    OTHER:'*',
     ERROR: '/404',
     PROFILE: '/profile',
     LOGIN: '/login',
@@ -40,5 +41,6 @@ export const publicRoutes: RoutesType[] = [
     {path: PATH.ERROR, component: Err404},
     {path: PATH.TEST, component: TestComponent},
     {path: PATH.PACKS, component: PacksContainer},
-    {path: PATH.CARDS_WITH_ID, component: CardsContainer}
+    {path: PATH.CARDS_WITH_ID, component: CardsContainer},
+    {path: PATH.OTHER, component: LoginContainer}
 ]
