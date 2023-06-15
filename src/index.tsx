@@ -8,11 +8,11 @@ import {store} from "./app/store";
 import { App } from './app/App';
 
 ReactDOM.render(
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
             <App/>
             </Provider>
-        </BrowserRouter>,
+        </HashRouter>,
     document.getElementById('root')
 );
 
